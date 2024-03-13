@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loại sản phẩm: "
+            android:textColor="#2196F3"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spUpdateChonLoaiSanPham"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtSuaTenSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittextvienhong"
+        android:hint="Nhập tên sản phẩm" />
+
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/edtSuaAnhSanPham"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:background="@drawable/edittextvienhong"-->
+    <!--        android:hint="Nhập ảnh sản phẩm" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/edtSuaLinkAnhSanPham"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:background="@drawable/edittextvienhong"-->
+    <!--        android:hint="Nhập link ảnh sản phẩm" />-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/edAnhSPud"-->
+<!--            android:layout_width="115dp"-->
+<!--            android:layout_height="108dp"-->
+<!--            android:src="@drawable/avatar" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Ảnh sản phẩm"-->
+<!--                android:textSize="15dp"-->
+<!--     />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btnUploadImageud"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:text="Up load ảnh"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="12dp"-->
+<!--                android:textStyle="bold" />-->
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+    <EditText
+        android:id="@+id/edtSuaGiaSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittextvienhong"
+        android:hint="Nhập giá sản phẩm" />
+
+    <EditText
+        android:id="@+id/edtSuaGiamGia"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittextvienhong"
+        android:hint="Nhập giảm giá" />
+
+    <EditText
+        android:id="@+id/edtSuaSoLuongTrongKho"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittextvienhong"
+        android:hint="Nhập số lượng trong kho" />
+
+    <EditText
+        android:id="@+id/edtSuaNgaySanXuat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittextvienhong"
+        android:clickable="false"
+        android:focusable="false"
+        android:hint="Nhập ngày sản xuất"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/edtSuaHanSuDung"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittextvienhong"
+        android:clickable="false"
+        android:focusable="false"
+        android:hint="Nhập hạn sử dụng"
+        android:inputType="none" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDialodHuySuaSanPham"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/bkgcam"
+            android:text="Hủy" />
+
+        <Button
+            android:id="@+id/btnDialogSuaSanPham"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/bkgxanh"
+            android:text="Sửa" />
+    </LinearLayout>
+
+</LinearLayout>

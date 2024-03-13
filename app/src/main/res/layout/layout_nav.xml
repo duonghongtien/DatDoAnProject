@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearShare"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/white"
+    android:paddingTop="20dp">
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/thaydoianh"
+        android:src="@drawable/avatar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/ordernow" />
+        <!--            -->
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="Welcome"-->
+        <!--                android:textColor="@color/black"-->
+        <!--                android:textSize="24dp"-->
+        <!--                android:textStyle="bold"-->
+        <!--                app:layout_anchor="@+id/thaydoianh"-->
+        <!--                app:layout_anchorGravity="bottom|center" />-->
+
+        <TextView
+            android:id="@+id/txtTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhóm 1"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_anchor="@+id/thaydoianh"
+            app:layout_anchorGravity="bottom|center" />
+
+        <TextView
+            android:id="@+id/txtMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gmaill"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            app:layout_anchor="@+id/thaydoianh"
+            app:layout_anchorGravity="start|bottom" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

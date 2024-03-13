@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "106247065700",
+    "firebase_url": "https://test-6d693-default-rtdb.firebaseio.com",
+    "project_id": "test-6d693",
+    "storage_bucket": "test-6d693.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106247065700:android:e2c0d9fd4d666fb45ecf71",
+        "android_client_info": {
+          "package_name": "tiendhph30203.poly.full"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106247065700-nvp5609auu598se22d4detme06agpf0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMK-e9rd4q4Z9DZermZ7-DYQgmVpb_ufQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106247065700-nvp5609auu598se22d4detme06agpf0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106247065700:android:b1a09ca4ed6dde895ecf71",
+        "android_client_info": {
+          "package_name": "tiendhph30203.poly.projectdatdoan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106247065700-nvp5609auu598se22d4detme06agpf0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMK-e9rd4q4Z9DZermZ7-DYQgmVpb_ufQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106247065700-nvp5609auu598se22d4detme06agpf0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
